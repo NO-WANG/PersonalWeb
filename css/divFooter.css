@@ -1,0 +1,65 @@
+#divFooter {
+	/*底部版权信息最外层容器*/
+	background-color: #000000;
+	/*设置背景颜色*/
+	color: white;
+	/*设置文字颜色*/
+	margin-top: 25px;
+	/*设置底部版权信息容器的外边距*/
+}
+
+#divFooter .row div {
+	/*底部版权信息中的列*/
+	color: #cccacc;
+	font: 15px/30px"microsoft yahei";
+}
+
+#divFooter .row a {
+	/*底部版权信息中的超链接*/
+	color: #cccacc;
+}
+
+#divFooter .row ul {
+	/*底部版权信息第一行左侧和右侧超链接容器*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#divFooter .rowLinkLogo {
+	/*底部版权信息第一行*/
+	padding: 30px 0px;
+	border-bottom: 1px solid#000000;
+}
+
+.rowLinkLogo .leftLink {
+	/*底部版权信息第一行左侧部分*/
+	text-align: right;
+	border-right: 1px solid#FFF3CD;
+}
+
+.rowLinkLogo .centerLogo {
+	/*底部版权信息第一行中间部分*/
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.rowLinkLogo .rightLink {
+	/*底部版权信息第一行右侧部分*/
+	text-align: left;
+	border-left: 1px solid#FFF3CD;
+}
+
+.divCopyright {
+	/*底部版权信息第二行*/
+	background-color: #B21F2D;
+	border-top: 1px solid#B1DFBB;
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.divCopyright center {
+	color: #CCCACC;
+	font-weight: bold;
+}

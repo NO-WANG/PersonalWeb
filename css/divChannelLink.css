@@ -1,0 +1,13 @@
+#divChannelLink .col-md-4 img {
+	margin: 0 auto;
+	/*设置居中*/
+	transform: translateY(0rem);
+	/*设置元素回到原点*/
+	transition: all .25s case;
+	/*设置动画效果的时间*/
+}
+
+#divChannelLink .col-md-4:hover img {
+	transform: translateY(-1rem);
+	/*设置元素向下移动-1rem*/
+}

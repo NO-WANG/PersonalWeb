@@ -1,0 +1,23 @@
+.carousel-caption  {
+	background: azure;
+	/*设置背景颜色*/
+	color: #B21F2D;
+	/*设置文本颜色为白色*/
+	opacity: 1;
+	/*设置透明度*/
+	filter: alpha(opacity=70);
+	/*设置透明度兼容ie8及以下版本*/
+	font: 50px"microsoft yahei"";
+	/*设置字体*/
+	width: 100%;
+	/*设置容器宽度*/
+	left: 0px;
+	/*设置容器左边缘位置*/
+	right: 0px;
+	bottom:0px;
+	/*设置容器下边缘位置*/
+	padding: 10px 10px;
+	/*设置容器内边距上下各为0，左右各为5*/
+	text-align: center;
+	/*设置文本对齐方式*/
+}

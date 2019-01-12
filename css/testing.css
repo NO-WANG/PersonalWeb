@@ -1,0 +1,36 @@
+#btnSide{//点击显示侧边栏
+	background: #005296;
+	cursor: pointer;
+	color: #FFFFFF;
+	padding: 10px;
+	position: fixed;
+	left: 0px;
+	top: 300px;
+	background: linear-gradient(to left,#005296 50%,#000000 50%);//设置背景颜色为线性渐变,从右向左一半蓝色一半黑色
+	background-size:200% 100%;//设置背景大小,水平方向放大1倍
+	background-position:left bottom ;//背景位置从左下开始
+	transition: all .5s;//设置过渡动画
+	box-shadow: 1px 1px 1px #000000;//边框阴影
+	border-radius:0px 3px 3px 0px ;	//边框圆角矩形
+}
+#btnSide:hover{
+	background: #005296;
+}
+#divSide{
+	position: fixed;
+	left: -200px;
+	top: 0px;
+	background: #000000;
+	color: #FFFFFF;
+	width: 200px;
+	height:100%;
+}
+.divMask{
+	position: absolute;
+	left: 15px;
+	top: -200px;
+	width: 90%;
+	height:90%;
+	background: rgba(0,0,0,.8);//前面三个是红绿蓝,后面一个是透明度
+    color: #FFFFFF;
+}

@@ -1,0 +1,69 @@
+.move {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	animation-name: myfirst;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+	/* Safari and Chrome: */
+	-webkit-animation-name: myfirst;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+}
+
+@keyframes myfirst {
+	0% {
+		left: 20px;
+		top: 0px;
+	}
+	25% {
+		left: 700px;
+		top: 0px;
+	}
+	50% {
+		left: 1400px;
+		top: 0px;
+	}
+	75% {
+		left: 700px;
+		top: 0px;
+	}
+	100% {
+		left: 20px;
+		top: 0px;
+	}
+}
+
+@-webkit-keyframes myfirst
+/* Safari and Chrome */
+
+{
+	0% {
+		left: 20px;
+		top: 0px;
+	}
+	25% {
+		left: 700px;
+		top: 0px;
+	}
+	50% {
+		left: 1400px;
+		top: 0px;
+	}
+	75% {
+		left: 700px;
+		top: 0px;
+	}
+	100% {
+		left: 20px;
+		top: 0px;
+	}
+}

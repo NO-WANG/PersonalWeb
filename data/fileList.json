@@ -1,0 +1,32 @@
+[
+	{
+		"fId": "0001",
+		"fName": "测试1",
+		"fSize": "1kb",
+		"fType": "docx",
+		"fUpDate": "2019-01-01",
+		"aTitle": "文章标题1",
+		"tabs": "学院简介",
+		"opt": "<a href='#'>删除</a>&nbsp;<a href='#'>查看</a>"
+	},
+	{
+		"fId": "0002",
+		"fName": "测试2",
+		"fSize": "6kb",
+		"fType": "docx",
+		"fUpDate": "2019-01-02",
+		"aTitle": "文章标题2",
+		"tabs": "学院简介",
+		"opt": "<a href='#'>删除</a>&nbsp;<a href='#'>查看</a>"
+	},
+	{
+		"fId": "0003",
+		"fName": "介绍文件",
+		"fSize": "100kb",
+		"fType": "docx",
+		"fUpDate": "2019-01-02",
+		"aTitle": "文件所属文章标题",
+		"tabs": "所属栏目",
+		"opt": "<a href='#'>删除</a>&nbsp;<a href='#'>查看</a>"
+	}
+]

@@ -1,0 +1,65 @@
+[
+	{
+		"id": 1,
+		"text": "常用功能",
+		"children": [
+			{
+				"id": 11,
+				"text": "栏目管理",
+				"url": "xygk/xyjj.html"
+			},
+			{
+				"id": 12,
+				"text": "文章管理",
+				"url": "xygk/xyld.html"
+			},
+			{
+				"id": 13,
+				"text": "文件管理",
+				"url": " "
+			},
+			{
+				"id": 14,
+				"text": "用户管理",
+				"url": " "
+			},
+			{
+				"id": 15,
+				"text": "评论管理",
+				"url": " "
+			},
+			{
+				"id": 16,
+				"text": "模版管理",
+				"url": " "
+			}
+		]
+	},
+	{
+		"id": 2,
+		"text": "系统工具",
+		"url": " ",
+		"children": [
+			{
+				"id": 21,
+				"text": "网站设置",
+				"url": "jyjx/jxdt.html"
+			},
+			{
+				"id": 22,
+				"text": "数据统计",
+				"url": "jyjx/sjjx.html"
+			},
+			{
+				"id": 23,
+				"text": "查看日志",
+				"url": " "
+			},
+			{
+				"id": 24,
+				"text": "数据备份",
+				"url": " "
+			}
+		]
+	}
+]

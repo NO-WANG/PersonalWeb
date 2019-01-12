@@ -1,0 +1,8 @@
+.list-group-item {
+	white-space: nowrap;
+	word-break: keep-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	font: 15px "microsoft yahei";
+}

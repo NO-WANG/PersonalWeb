@@ -1,0 +1,30 @@
+/*设置用户注册项右边输入框样式ʽ*/
+.userRegisterInput {
+	display: inline-block;
+	width: 70%;
+	/*�����������*/
+}
+/*�����û�ע�����ұ�������ʾ������������ʽ*/
+.userRegisterNotice {
+	font: 15px "microsoft yahei";
+	color: #444444;
+	/*�����ı���ɫ*/
+	padding: 8px 0px;
+	/*���������ڱ߾࣬���·ֱ�Ϊ8������Ϊ0*/
+}
+
+/*�����û�ע�������������������ʽ*/
+.userRegisterText {
+	display: inline-block;
+	/**/
+	width: 20%;
+	/*�����������*/
+	text-align: right;
+	/*�Ҷ���*/
+	padding-right: 5px;
+	/*��������߾�*/
+	font: bold 15px "microsoft yahei";
+	/*�����ı�����*/
+	vertical-align: top;
+	/*����������ֱ���뷽ʽΪ���˶���*/
+}

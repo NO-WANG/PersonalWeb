@@ -1,0 +1,16 @@
+#ulPEPlatform .list-group-item{
+	/*列表容器*/
+	padding: 28px 10px;/*设置容器内边距*/
+}
+#ulPEPlatform .divPicText{
+	/*说明文字容器*/
+	position: absolute;/*设置绝对定位*/
+	bottom: 0px;/*设置底部边缘位置*/
+	left: 0px;/*设置左边边缘位置*/
+	height: 0px;/*设置高度为0，即隐藏文字*/
+	overflow: hidden;/*设置超出容器高度的将被隐藏*/
+	background: #000000;/*设置背景色*/
+	opacity: 0.7;/*设置透明度*/
+	color: #FFFFFF;/*设置字体颜色*/
+	font: 14px/25px"microsoft yahei";
+}
